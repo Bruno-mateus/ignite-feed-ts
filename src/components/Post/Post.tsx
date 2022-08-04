@@ -34,7 +34,7 @@ export function Post({ author, publishedAt, content }: postProps) {
     addSuffix: true
   })
 
-  const [comments, setComments] = useState([''])
+  const [comments, setComments] = useState(['Boooa dev'])
 
   const [newCommentText, setNewCommentText] = useState('')
 
